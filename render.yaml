@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: uvr-chamber
+    env: docker
+    plan: free
+    branch: main
+    healthCheckPath: /docs
